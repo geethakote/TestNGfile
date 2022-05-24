@@ -1,4 +1,4 @@
-package tests;
+package autotest;
 
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.RemoteWebDriver;

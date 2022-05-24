@@ -1,4 +1,4 @@
-package tests;
+package autotest;
 
 import java.awt.Robot;
 import java.awt.event.KeyEvent;
