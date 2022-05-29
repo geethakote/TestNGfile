@@ -42,6 +42,7 @@ public class Test123
 	            } 
 	            catch(Exception ex) 
 	            {
+	            	System.out.println("click not works");
 	            	return(false);
 	            }
 	         }
