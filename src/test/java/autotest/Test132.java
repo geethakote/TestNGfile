@@ -29,7 +29,7 @@ public class Test132
 		//Horizontal slider
 		wait.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(0));
 		WebElement e1=driver.findElement(By.id("slider"));
-		ActionsUtility au=new ActionsUtility(driver,wait);
+	    ActionsUtility au=new ActionsUtility(driver,wait);
 		au.moveSlider(e1, 100, 0);
 		au.moveSlider(e1,-100, 0);
 		driver.switchTo().defaultContent();
@@ -43,9 +43,9 @@ public class Test132
 		au.moveSlider(e2, 0, -100);
 		driver.switchTo().defaultContent();
 	}
-}
 
 
+	}
 
 
 

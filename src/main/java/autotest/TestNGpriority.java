@@ -25,7 +25,7 @@ public class TestNGpriority
 	 
 	 @Test
 	 public void eTest() {
-	 System.out.println("This is test e passed.");
+	 System.out.println("This is test e pass.");
 	 }
 	 
 }
