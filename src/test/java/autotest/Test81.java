@@ -51,7 +51,7 @@ public class Test81 {
 		}
 		else
 		{
-			System.out.println("Test failed");
+			System.out.println("Test not passed");
 			List<String> mismatches=obj.getMismatchedSuggetions(cache,word);
 			for(String mismatche:mismatches)
 			{
