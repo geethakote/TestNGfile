@@ -19,8 +19,8 @@ public static void main(String[] args) throws Exception
 	WebElement e=driver.findElement(By.xpath("//button[text()='Forgot email?']"));
 	String x=e.getAttribute("type");
 	System.out.println(x);
-	String y=e.getCssValue("color");
-	System.out.println(y);
+	String z=e.getCssValue("color");
+	System.out.println(z);
 	
 
 	}
